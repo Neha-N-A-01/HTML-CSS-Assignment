@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* border: 1px solid black; */
+
+}
+
+.logo h6 {
+    padding: 5px;
+    /* align-items: center; */
+    color: red;
+
+}
+
+.navbar img {
+    margin-left: 10px;
+
+}
+
+.nav-opt {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right button {
+    margin-left: 10px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+}
+
+.hero {
+    background-image: linear-gradient(to right, rgb(233, 241, 91), rgb(252, 139, 241));
+    height: 800px;
+}
+
+.hero1 {
+    position: absolute;
+    top: 50px;
+}
+
+.hero .container-fluid {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.container {
+    display: block;
+    justify-content: center;
+}
+
+.container p,
+h1,
+.button {
+    text-align: center;
+}
+
+.button {
+    padding: 10px;
+    margin: 20px;
+    /* border: 1px solid black; */
+}
+
+.button button {
+    border-radius: 50px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    /* padding: 10px; */
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+}
+
+.button a {
+    color: black;
+    margin-left: 15px;
+}
+
+.c {
+    display: flex;
+}
+
+.c1 {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    width: 60%;
+    height: 490px;
+    border-radius: 20px;
+    border: 2px solid rgb(246, 245, 245);
+}
+
+/* .card-body img {
+    height: 100px;
+    bottom: 0;
+    left: 0;
+} */
+
+.img1 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+
+}
+
+.c1 h6,
+h5,
+p,
+a {
+    margin-left: 20px;
+}
+
+.c1 h6 {
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.c1 h5 {
+    margin-top: 10px;
+
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.c1 p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.c1 a {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border-radius: 30px;
+}
+
+.c2 {
+    position: absolute;
+    top: 350px;
+    left: 65%;
+    width: 30%;
+    height: 490px;
+    border-radius: 20px;
+    border: 2px solid rgb(246, 245, 245);
+}
+
+.img2 {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+
+}
+
+.c2 h4 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ab2{
+height: 80px;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.ab2 button {
+    margin:10px;
+    border-radius: 30px;
+    width: 150px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+.ab2 button i {
+    margin: 5px;
+}
+
+.ab2 button:hover {
+    background-color: black;
+    color: white;
+}
+
+.box  {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    /* border: 1px solid black; */
+
+}
+
+
+.box-row .ca1 {
+    height: 98%;
+    width: 200px;
+}
+
+.box-row .ca1 {
+
+    /* background-color: #a27474; */
+    text-align: left;
+    
+}
+#card1 {
+    background-size: cover;
+    background-position: center;
+}
+.box-row h6 ,h4{
+    /* text-align: left; */
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+    /* float: left; */
+    margin-top: 10px;
+}
+.h6 {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.ca1 img {
+    margin-top: 15px;
+    margin-left: 0;
+    width: 100%;
+    background-size: cover;
+}
+
+.aaa h6 {
+    margin-top: 25px;
+}
+.aaa p {
+    font-size: 0.95rem;
+margin-bottom: 0;
+}
+.aaa a {
+    font-size: 0.8rem;
+    margin-top: 0;
+
+}
+.foot-pannel {
+    background-color: aliceblue;
+    color: black;
+    height:500px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 150px;
+}
+.foot-pannel ul {
+    margin-top: 20px;
+}
+.foot-pannel ul li {
+    margin-top: 10px;
+}
+.f1 {
+    font-size: 0.7rem;
+    list-style: none;
+    position: relative;
+    left: 10px;
+}
+
+.ne {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 70px;
+
+}
+
+.ne p i {
+    margin: 10px;
+}
